@@ -14,6 +14,83 @@
           <figcaption>Aliaksandr Halaveika!</figcaption>
         </figure>
       </article>
+        <ol>
+          <li><h2>Name, Surname<br></h2>
+            <p>
+                Aleksandr, Halaveika
+            </p>
+          </li>
+          <li><h2>Contact information<br></h2>
+            <p>
+                Mobile phone: +375292773646<br>
+                E-mail: halaveika1988@gmail.com<br>
+                Address: Brest, 6 Volgogradskaja str., apt. 31
+            </p>
+          </li>  
+          <li><h2>Summary<br></h2>
+            <p>
+                Currently, I am undergoing retraining on the basis of higher education
+                 in the specialty Software information systems. I have a great desire to
+                  learn a new profession. I try to build my life intelligently to achieve this goal.
+            </p>
+          </li>
+          <li><h2>Skills<br></h2>
+            <p>
+            C++, Javascript, HTML, CSS: Bacis lvl;<br>
+            Experience with Git, Linux Ubuntu, Shell, MS SQL.<br>
+            Knowledge of Wordpress.
+            </p>
+          </li>
+          <li><h2>Code example<br></h2>
+            <code>
+                module.exports = function longestConsecutiveLength(array) {<br>
+                  let set = new Set();<br>
+                  for(let i = 0; i < array.length; i++){<br>
+                    if(!set.has(array[i])){<br>
+                      set.add(array[i]);<br>
+                    }<br>
+                  }<br>
+                  let max = 0;<br>
+                  let count = 0;<br>
+                  for(i in array){<br>
+                    temp = array[i];<br>
+                    if(set.has(array[i])){<br>
+                      count = 1;<br>
+                      set.delete(array[i]);<br>
+                    }        <br>
+                    while(set.has(temp - 1)){<br>
+                      if(set.has(temp - 1)){<br>
+                        count ++;<br>
+                        set.delete(temp - 1);<br>
+                        temp -= 1;<br>
+                      }   <br>
+                    }<br>
+                    temp = array[i];<br>
+                    while(set.has(temp + 1)){<br>
+                      if(set.has(temp + 1)){<br>
+                        count ++;<br>
+                        set.delete(temp + 1);<br>
+                        temp += 1;<br>
+                      }   <br>
+                    }<br>
+                    if(count > max){<br>
+                      max = count;<br>
+                    }<br>
+                  }<br>
+                  return module.exports=max;<br>
+                }<br>
+              </code>
+          </li>
+          <li><h2>Experience<br></h2>
+
+          </li>
+          <li><h2>Education<br></h2>
+          </li>
+          <li><h2>English language level - A2<br></h2>
+            <p>
+              7 years of school study. 2 years at the University. 1 year at duolingo
+            </p>
+        </ol>
     </div>
   </body>
 </html>
