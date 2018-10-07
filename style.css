@@ -38,11 +38,24 @@
   }
 
 #content {
-    background: rgb(165, 225, 233);
+    margin: auto;
     width: 1024px; 
     padding: 0px;
     margin-top: 0px;
     border: 2px solid #000;
     box-sizing: border-box;
-    margin: auto;
+
+    font: normal 13px/1.5 "Arial", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: "Arial", sans-serif;
+    text-align: left;
+    color: #333333;
+
+    background: rgb(215, 236, 231);
+}
+
+h1{
+    text-align: center;   
 }
