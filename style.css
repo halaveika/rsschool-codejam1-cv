@@ -38,6 +38,11 @@
   }
 
 #content {
-    width: 1024px;
-    align-content: center;
+    background: rgb(165, 225, 233);
+    width: 1024px; 
+    padding: 0px;
+    margin-top: 0px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    margin: auto;
 }
